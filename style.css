@@ -1,0 +1,51 @@
+
+
+*:focus{
+	box-shadow: none !important;
+	outline: none;
+}
+input{
+	width: 100% !important;
+	padding: 12px 20px !important;
+	border: none ;
+	margin-bottom: 20px !important;
+	border-radius:50px !important;
+	background: white;
+}
+.generate-btn{
+	border-radius: 50px !important;
+	padding: 8px 20px !important;
+	background-color: white !important;
+	font-weight: bold !important;
+}
+.submit-btn{
+	background: black !important;
+	padding: 10px 20px !important;
+	color: white !important;
+}
+.password-box{
+	position: relative;
+}
+.show-icon{
+	position: absolute;
+	top :30%;
+	font-size: 18px;
+	right: 15px;
+	color: #ccc;
+	z-index: 1;
+	cursor: pointer;
+}
+.email-box{
+	position: relative;
+}
+.email-loader{
+	position: absolute;
+	top :30%;
+	font-size: 18px;
+	right: 15px;
+	color: #ccc;
+	z-index: 1;
+	cursor: pointer;
+	background: white;
+	
+}
